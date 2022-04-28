@@ -4,3 +4,28 @@ h1{
     font-size: 100px;
     font-weight: 400;
 }
+img{
+    height: auto;
+    width: 500px;
+    border-radius: 20px;
+}
+.item img:hover{
+    transform: scale(1.2);
+    transition: all ease-in;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(130, 200, 140);
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items:center;
+    width:400px;
+    text-align: center;
+    margin-top: 50px;
+}
+p{
+    color: darkblue;
+    font-size: 30px;
+
+}
