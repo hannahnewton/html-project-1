@@ -18,18 +18,15 @@ img{
 .item{
     display: flex;
     flex-direction: column;
-    gap:10px;
+    gap:15px;
     align-items:center;
     width:50%;
     text-align: center;
-    float: left;
+    float:right;
 }
 p{
     color: darkblue;
     font-size: 30px;
 
 }
-.float-container{
-    border: 3px solid wheat;
-    padding: 10px;
-}
+
